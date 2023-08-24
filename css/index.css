@@ -1,0 +1,128 @@
+body {
+  width: 100vw;
+  height: 100h;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(/images/heroImg_background.jpg);
+  background-repeat: none;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+
+
+
+h1 {
+  font-size: 2.5rem;
+}
+
+
+/* Buttons */
+
+button {
+  background-color: #253551;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+button:hover {
+  transition: box-shadow .3s;
+  box-shadow: 0 0 6px rgba(33,33,33,.5);  
+}
+
+/* Navigation Bar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 20px;
+}
+.logo {
+  flex: 1;
+  font-size: 24px;
+}
+.logo img {
+  height: 30px;
+  vertical-align: middle;
+}
+.nav-links {
+  flex: 2;
+  text-align: center;
+}
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  flex: 1;
+  text-align: right;
+}
+.social-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Hero Section */
+
+.heroImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Bar */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #c6c6c6;
+  padding: 1rem;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+footer div a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+footer div a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
