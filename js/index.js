@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  console.log("This script is running fine")
   var phrases = ["a UX Designer", "an Artist", "a Baker", "a Pianist"];
   var currentIndex = 0;
   
