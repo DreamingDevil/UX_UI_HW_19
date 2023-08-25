@@ -119,6 +119,7 @@ footer div a {
   margin: 0 auto;
   text-decoration: none;
   color: black;
+  padding: 0 1rem;
 }
 
 footer div a:hover {
